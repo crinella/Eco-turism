@@ -1,0 +1,798 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background: #f5f5f5;
+    font-size:18px;
+    font-family: 'Satisfy', cursive;
+   
+    
+}
+header {
+    height: 175px;
+    background-image: url("../images/poza_6codrii.jpg");
+    background-size: cover;
+   /* object-fit: cover; */
+    position:fixed;
+    width: 100%;
+    padding-top: 0px;
+    /* padding-left: 170px; */
+    font-family:'Satisfy', cursive; 
+    font-size: 40px;
+    text-align: center;
+    z-index: 2;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.logo1{
+    text-align: right;
+    color: darkgrey;
+}
+.harta{
+   align-content: left !important;
+   display: none;
+  
+}
+
+.page-container {
+    min-height: 170vh;
+    padding-top: 170px;
+}
+main{
+    margin: 0px 0% 0px 300px;
+    padding: 30px 55px;
+    font-size: 20px;
+    background-color: rgba(215, 245, 233, 0.89);
+    /* background: radial-gradient(white,rgb(237, 240, 92), rgb(104, 183, 233)) */
+}
+aside{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    /* padding-top: 5px; */
+    /* padding-left: 20px; */
+    background: linear-gradient(to bottom, rgb(24, 24, 255),rgba(0, 0, 255, 0.685),yellow, rgb(255, 0, 0),red);
+   
+}
+aside img{
+    width: 95% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+aside h1{
+    color: ghostwhite;
+    padding-top: 45px;
+    text-align: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.logo{
+    /* margin-left: 25px; */
+    font-size: 35px;
+    color: white;
+}
+a img{
+    padding-top: 20px;
+    padding-left: 0px;
+    width: 350px;
+    
+}
+nav{
+    padding-left: 15%;
+    text-align: center;
+    font-size: 23px;
+  background: linear-gradient(to right,rgb(24, 24, 255),rgb(107, 223, 155));
+  /* padding-inline-start: 75px; */
+}
+
+footer{
+    background: linear-gradient(to right,rgb(24, 24, 255),rgb(107, 223, 155));
+    /* background-color:rgb(90, 80, 230); */
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: ivory;
+    padding: 10px;
+}
+.con{
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    width: 80px; 
+}
+p{
+    line-height: 170%;
+    border-left: 6px solid blue;
+    padding-left: 12px;
+    text-indent: 20px;
+    text-align: justify;
+}
+.intro-video{
+    display:block;
+    max-height: 50vh;
+    margin-left:auto ;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    
+}
+.h1-7{
+    text-align: center;
+    font-family: cursive;
+    color:crimson;
+    font-size: 50px;
+}
+.row{
+    overflow: auto;
+}
+[class^="col"]{
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 45px;
+   color: darkblue;
+   text-align: center;
+   text-shadow: 2px 3px yellow;  
+}
+.col-50 {
+    width: 50%; 
+}
+.col-100 {
+    width: 100%; 
+}
+
+.img-1{
+    height: 200px;
+    object-fit: cover;
+}
+.img-2{
+    height: 350px;
+    object-fit: cover;
+}
+.section-bg2 {
+    text-align: center;
+    background-image: url(../img/bg-2.jpg);
+    background-size: cover;
+    min-height: 895px;
+    background-position: center center;
+    padding-top: 145px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row-1 {
+    margin-right: 0;
+    margin-left: 0;
+}
+.btn-cont .btn {
+    margin-bottom: 25px;
+  }
+  .btn-cont .btn-desc {
+    font-weight: bold;
+    font-size: 21px;
+  }
+  .section-bg2 {
+    text-align: center;
+    background-image: url(../images/rm.jpg);
+    background-size: cover;
+    min-height: 595px;
+    background-position: center center;
+    padding-top: 145px;
+    margin-left: 290px;
+  }
+  .section-bg2 .h2 {
+    color: rgb(252, 76, 76);
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 65px;
+    font-size: 80px;
+  }
+  /* Istoria Moldovei */
+  
+  .parent-float {
+    overflow: auto;
+}
+.poze1{
+    float: right;
+    width: 250px;
+    border:2px solid green;
+}
+.poze2{
+    float: left;
+    width: 250px;
+    border:2px solid green;
+}
+.poza1{
+    border:2px solid green;
+    float: right;
+    width: 200px;
+    text-align: center;
+}
+.p1{
+    text-align: justify;
+
+}
+/* Biserici si manastiri */
+.produs {
+    border: 2px solid green;
+    width: 48%;
+    height: 400px;
+    overflow: auto;
+    padding: 8px;
+    border-radius: 8px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 15px;
+    /* background: linear-gradient(150deg,rgb(232, 233, 223), rgb(165, 223, 210)); */
+    background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(../images/fo.jpg);
+    background-size: cover;
+    font-size: 15px;
+}
+.map{
+    width: 100%;
+    max-width: 460%;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 25px;
+    
+    
+}
+.produs img{
+    padding: 0px 8px;
+    max-width: 35%;
+    object-fit: cover;
+}
+
+.img-float {
+    height: 150px;
+    float:right;
+    border-radius: 50px;
+}
+.vinarii {
+    width: 48%;
+    height: 300px;
+    padding: 28px;
+    border-radius: 8px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: -2px -3px rgb(233, 219, 138);
+    font-size: 25px;
+    color: rgb(14, 14, 148);
+    overflow: hidden;
+    }
+.vinarii img{
+     max-width: 75%;
+    object-fit: cover;
+}
+.cazare{
+    font-size: 20px;
+    color: darkblue;
+
+
+}
+.cazare img{
+    width: 450px;
+    object-fit: cover;
+}
+.cazare th{
+    font-size: 35px;
+    color: rgb(228, 23, 23);
+    text-shadow: -4px -3px rgb(202, 219, 45);
+    text-align: center;
+}
+.pret{
+    background-color: #dcdd8be8;
+    /* display: block; */
+    font-size: .9125rem;
+    font-weight: 400;
+    margin: 0.25rem 0 0;
+    padding: .175rem 1.25rem;
+    text-align: center;
+    border-radius: 40px;
+}
+/* muzee */
+.galerie {
+    /* margin:10px 10% ; */
+    text-align: center;
+    font-size: 35px;
+    color: rgb(4, 4, 107);
+    font-weight: bold;
+    text-shadow: -4px -4px greenyellow;
+}
+.galerie img {
+    width: 190px;
+    height: 190px;
+    object-fit:cover;
+    margin: 10px 10px;
+    filter: brightness(100%) drop-shadow(7px 5px 1px #74739cd2);
+    border:4px solid #4221e6;
+    transition: 1s all;
+}
+.galerie img:hover{
+    transform:scale(1.07);
+    transition: 1s all;
+    filter: brightness(120%) drop-shadow(7px 5px 1px #74739cd2);
+}
+.galerie a {
+    text-decoration: none;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.program{
+    overflow: hidden;
+    /* padding: 10px 10px; */
+    width: 330px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    word-spacing: -1px;
+    margin: 10;
+    font-family: Roboto, sans-serif;
+    color: indigo;
+    background-color: rgba(202, 247, 229, 0.89);
+    border: 2px solid rgba(215, 245, 233, 0.99);
+    box-shadow: inset 3px 6px 6px rgb(0 0 0 / 8%); 
+  
+}
+.program:hover{
+     filter: brightness(120%) drop-shadow(8px 6px 2px rgb(129, 109, 238)); 
+    transition: 1s all;
+    color: red;
+    /* background-color: rgb(67, 219, 219); */
+    background: radial-gradient(rgb(218, 113, 113),rgb(226, 226, 126) , rgb(104, 104, 233));
+}
+
+.info{
+    padding: 10px;
+    color: #495057;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Contacte */
+.mapa{
+    width: 1150px;
+    max-width: 560%;
+    height: 550px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.cont{
+top: -250px;left: 0%;
+-webkit-transform: translateY(-30%);
+transform: translateY(-30%);
+z-index:1;
+width: 500px;
+background-color: hsla(0,0%,100%,.9);
+box-shadow: 0.8px 1.8px 16px 0 rgba(24,23,19,.5);
+padding: 25px 35px;
+position: relative;
+overflow: hidden;
+}
+.title{
+    text-transform: uppercase;
+ color: red !important;
+}
+.contacts-title{
+/* text-transform: uppercase; */
+font-size: 20px;
+font-weight: 400;
+color: #293354;
+}
+.formular{
+    margin-top: -350px;
+    text-align: center;
+    color: blue;
+}
+.form1{
+border-color: transparent;
+
+text-transform: uppercase; 
+display: inline-block;
+padding: 8px 12px;
+font-size: 16px;
+line-height: 1.25;
+}
+.sppb-row {
+
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -5px;
+    margin-left: -5px; */
+}
+
+.sppb-form-control{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+}
+.sppb-btn{
+    padding: 8px 10px;
+    float: right;
+    background-color: rgb(36, 65, 196);
+    margin-top: -35px;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px 20px;
+    font-weight: 200;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+  #menu-btn {
+      color:white;
+      font-size:30px;
+      position: absolute;
+      right: 25px;
+      display: none;
+      top: 120px;
+  }           
+  .show{
+      display: block !important;
+    
+  }               
+/* media */
+@media (max-width: 968px){
+    body{
+        font-size: 16px;
+    }
+   [class^="col-"]{
+       width: 100%;
+   }
+   .imgg{
+       width: 170px;
+   }
+ main{
+     margin:0%; 
+     margin: 0px 8% 8px 300px;
+     margin-top: 10px;
+     margin-left: 8px;
+     margin-right: 8px;
+     padding-top: 10px;
+     padding-bottom: 25px ;
+     padding: 8px 8px;
+    font-size: 16px;
+ }
+ aside {
+     display: none;
+ }
+ galerie img{
+     width: 130px;
+     height: 130px;
+ }
+ header {
+     font-size: 35px;
+ }
+ nav{
+    /* padding-left: 1%; */
+    text-align: center;
+    font-size: 18px;
+}
+.harta{
+    align-content: left !important;
+    display: flex;
+    position: absolute;
+ }
+ a img{
+padding-top: 0px;
+    width: 85px;
+ 
+    
+}
+ #menu-btn{
+     display: block;
+
+ }
+ .section-bg2{
+     padding: 0px;
+     margin-left: 0px;
+    min-height: 250px;
+    
+ }
+ .section-bg2 .h2 {
+    color: white;
+     font-size: 40px;
+     text-align: center;
+ }
+ .poze1{
+    float: right;
+    width: 100px;
+    border:2px solid green;
+}
+.poze2{
+    float: left;
+    width: 100px;
+    border:2px solid green;
+}
+.poza1{
+    border:2px solid green;
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+.p1{
+    text-align: justify;
+    font-size: 18px;
+}
+.produs {
+    border: 2px solid green;
+    width: 48%;
+    height: 400px;
+    overflow: auto;
+    padding: 8px;
+    border-radius: 8px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 15px;
+    /* background: linear-gradient(150deg,rgb(232, 233, 223), rgb(165, 223, 210)); */
+    background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(../images/fo.jpg);
+    background-size: cover;
+    font-size: 15px;
+}
+.map{
+    width: 100%;
+    max-width: 460%;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 25px;
+    
+    
+}
+.produs img{
+    padding: 0px 8px;
+    max-width: 35%;
+    object-fit: cover;
+}
+
+.img-float {
+    height: 150px;
+    float:right;
+    border-radius: 50px;
+}
+.vinarii {
+    width: 48%;
+    height: 300px;
+    padding: 28px;
+    border-radius: 8px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: -2px -3px rgb(233, 219, 138);
+    font-size: 25px;
+    color: rgb(14, 14, 148);
+    }
+.vinarii img{
+     max-width: 75%;
+    object-fit: cover;
+}
+.cazare{
+    font-size: 20px;
+    color: darkblue;
+
+
+}
+.cazare img{
+    width: 450px;
+    object-fit: cover;
+}
+.cazare th{
+    font-size: 35px;
+    color: rgb(228, 23, 23);
+    text-shadow: -4px -3px rgb(202, 219, 45);
+    text-align: center;
+}
+.pret{
+    background-color: #dcdd8be8;
+    /* display: block; */
+    font-size: .9125rem;
+    font-weight: 400;
+    margin: 0.25rem 0 0;
+    padding: .175rem 1.25rem;
+    text-align: center;
+    border-radius: 40px;
+}
+/* muzee */
+.galerie {
+     text-align: center;
+    font-size: 20px;
+}
+
+.galerie img {
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    margin: 10px 10px;
+    filter: brightness(100%) drop-shadow(7px 5px 1px #74739cd2);
+    border:4px solid #4221e6;
+    transition: 1s all;
+}
+.galerie img:hover{
+    transform:scale(1.07);
+    transition: 1s all;
+    filter: brightness(120%) drop-shadow(7px 5px 1px #74739cd2);
+}
+.flex{
+    display:inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.program{
+    overflow: hidden;
+    /* padding: 10px 10px; */
+    width: 400px;
+    max-height: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    word-spacing: -1px;
+    margin: 10;
+    font-family: Roboto, sans-serif;
+    color: indigo;
+    background-color: rgba(202, 247, 229, 0.89);
+    border: 2px solid rgba(215, 245, 233, 0.99);
+    box-shadow: inset 3px 6px 6px rgb(0 0 0 / 8%); 
+  
+}
+
+
+.produs {
+    width: 98%;
+     padding: 10px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+.vinarii {
+    width: 100%;
+}
+   
+.vinarii img{
+     max-width: 75%;
+    object-fit: cover;
+}
+.cazare{
+    max-width: 98%;
+    font-size: 14px;
+ 
+} 
+/* table{
+   max-width: 98%;
+    display:inline-table ;
+   
+} */
+.cazare img{
+    width: 170px;
+  
+}
+.cazare th{
+    font-size: 18px;
+ 
+}
+.pret{
+    background-color: #a4f7a2e8;
+    display: block;
+    font-size: .7125rem;
+    font-weight: 150;
+    margin: 0.02rem 0 0;
+    padding: .165rem 1.25rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.cazare1{
+    width: 98%;
+    padding: 1px;
+  
+}
+.map{
+ 
+    max-width: 98%;
+    height: 220px; 
+    
+}
+.con{
+
+    width: 60px; 
+}
+.h1-7{
+    font-size: 30px;
+}
+.row{
+    overflow: auto;
+}
+[class^="col"]{
+    padding: 5px;
+    font-size: 25px;
+  
+}
+.col-50 {
+    width: 50%; 
+    font-size: 26px;
+}
+
+.img-1{
+    height: 100px;
+    /* object-fit: cover; */
+}
+.img-2{
+    height: 100px;
+    /* object-fit: cover; */
+}
+/* Contacte */
+.mapa{
+    width: 100%;
+ 
+    height: 550px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.cont{
+
+z-index:1;
+width: 330px;
+padding: 30px 20px;
+overflow: hidden;
+font-size: 16px;
+}
+
+.contacts-title{
+/* text-transform: uppercase; */
+font-size: 16px;
+font-weight: 200;
+
+}
+.cls-1{
+width: 180px;
+height: 200px;
+fill: rgb(113, 113, 150); 
+stroke-width: 0;
+}
+.formular{
+    margin-top: -320px;
+    text-align: center;
+    color: blue;
+}
+.form1{
+
+padding: 3px 3px;
+font-size: 16px;
+line-height: 1.05;
+}
+.form2{
+   max-height: 150px;
+   width: 290px;
+}
+#menu-btn{
+    display: block;
+}
+nav{
+    display: none;
+}
+
+}
+
